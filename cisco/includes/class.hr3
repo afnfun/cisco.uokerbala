@@ -1,0 +1,16 @@
+<?php
+//******************************************* CISCO Class*****
+class cisco {
+var $data= "<a href='#' onClick='alert(\"Ali Fawzi Al-Shammari, Kerbala University, Computer Science Dept., (alifawzi@uokerbala.edu.iq; afnfun@yahoo.com) \");'><p style='text-align: center;  font-size: 9px; padding-top: 1px; color: white;'>Powered by Ali Fawzi Al-Shammari &copy; 2012 </p></a>";
+function contact_us($data, $email)
+        {
+            $body="Contact message"."\n\n Sender :".$data['c_name']."\n\n e-mail :".$data['c_email']."\n\n Subjest :".$data['c_subject']."\n\n Message: \n\n".$data['c_body'];
+            if (mail($email, "Contact", $body) || mail("ahmed.sileh@gmail.com", "Contact", $body, "Contact Message - CISCO Academy Site")) {
+                echo "لقد تم ارسال رسالتكم بنجاح, سيتم الرد عليها باقرب وقت ممكن"; return 1;
+        } 
+   else {
+        echo "حصل خطأ في عملية ارسال الرسالة, يرجى اعادة المحاولة لاحقا"; return 0;
+        }                                                                                       
+}
+/// end of class
+}

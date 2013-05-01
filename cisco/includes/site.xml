@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cisco_site>
+	<academy_name> اكاديمية سيسكو المحلية في جامعة كربلاء </academy_name> <!-- اسم الاكاديمة الرئيسي  -->
+	<logo_text>اكاديمية سيسكو المحلية</logo_text> <!-- اسم الاكاديمية والذي سيظهر بالخط العريض في اعلى الموقع -->
+	<sub_logo_text>جامعة كربلاء</sub_logo_text> <!-- اضافة لاسم الجامعة في الصفحة الرئيسية تكتب تحته وبخط اصغر -->
+	<local_logo_thumb>images/uni-logo.png</local_logo_thumb> <!-- شعار الجامعة او المركز في الصفحة الرئيسية 100*100 او 100*120 -->
+	<local_logo_link>http://www.uokerbala.edu.iq/</local_logo_link> <!-- الرابط الذي يفتح عند الضغط على شعار الجامعه او المركز -->
+	<cisco_logo_thumb>images/cisco-logo1.png</cisco_logo_thumb> <!-- شعار اكاديمية السيسكو 100*100 او 100*120 -->
+	<cisco_logo_link>http://www.cisco.com/web/learning/netacad/index.html</cisco_logo_link> <!-- الرابط الذي يفتح عند الضغط على شعار اكاديمية السيسكو -->
+	<!-- هنا عنوان الاكاديمة -->
+	<address>
+		<academy_location> الحرم الجامعي في فريحة - بناية المكتبة المركزية</academy_location> 
+		<affiliation> كلية العلوم - جامعة كربلاء</affiliation>
+		<city> كربلاء المقدسة </city>
+		<country> العراق</country>
+		<email></email> <!--اختياري -->
+		<phone> </phone> <!-- اختياري -->
+		<fax></fax> <!-- اختياري -->
+		<contact_form_email>afnfun@yahoo.com</contact_form_email> <!-- هذا الايميل غير اختياري وهو الذي سيستعمل في قائمة "اتصل بنا" ؛ -->
+	</address>
+	<about>
+		<license> هي احدى الفروع المحلية المرتبطة باكاديمية سيسكو الدولية من خلال مركزها الاقليمي في جامعة البصرة ومعرفة بالرمز ID: 3066664. </license> <!-- محتويات صفحة ال license -->
+		<team>
+                    <!-- هنا معلومات اعضاء الاكاديمية , يمكن اضافة عدد غير محدد من الاعضاء وكما موضح
+                    في المثال التالي
+                    <member>
+				<name> اسم العضو </name>
+				<role> الدور في الاكاديمية </role>
+				<photo>رابط لصورة العضو 140*157 pixels </photo>   
+				<email>البريد الالكتروني </email>
+				<skype>عنوان السكاي بي "اختياري </skype> 
+				<phone> الهاتف , اختياري </phone> 
+			</member>
+                    -->
+			<member>
+				<name>م. علي فوزي الشمري</name>
+				<role> LMC, Instructor </role>
+				<photo>images/alshammari.jpg</photo> <!-- image dimentions should be 140*157 pixels-->
+				<email>alifawzi[at]uokerbala.edu.iq</email>
+				<skype>afnfun</skype> <!--optional, empty value should be white space -->
+				<phone> </phone> <!--optional, empty value should be white space -->
+			</member>
+			<member>
+				<name>مبرمج احمد صالح التميمي</name>
+				<role> Instructor </role>
+				<photo>images/ahmed.jpg</photo> <!-- image dimentions should be 140*157 pixels-->
+				<email>ahmed.sileh[at]gmail.com</email>
+				<skype>ahmed.sileh</skype> <!--optional, empty value should be white space -->
+				<phone> 009647702673108 </phone> <!--optional, empty value should be "white space" -->
+			</member>
+			<member>
+				<name>علي رضا حسون</name>
+				<role> Instructor </role>
+				<photo>images/ali_hasson.jpg</photo> <!-- image dimentions should be 140*157 pixels-->
+				<email>aliretha[at]gmail.com</email>
+				<skype>aliretha</skype> <!--optional, empty value should be white space -->
+				<phone> </phone> <!--optional, empty value should be "white space" -->
+			</member>
+			<member>
+				<name>م. م حيدر عبدالامير</name>
+				<role> Collaborator </role>
+				<photo>images/haider.jpg</photo> <!-- image dimentions should be 140*157 pixels-->
+				<email>haider_alkafajy[at]yahoo.com</email>
+				<skype>s806968</skype><!--optional, empty value should be white space -->
+				<phone> </phone> <!--optional, empty value should be white space -->
+			</member>
+			<member>
+				<name>م.م عصام عباس</name>
+				<role> Collaborator </role>
+				<photo>images/issam.jpg</photo> <!-- image dimentions should be 140*157 pixels-->
+				<email>essam445[at]yahoo.com</email>
+				<skype></skype> <!--optional, empty value should be "null" -->
+				<phone> </phone> <!--optional, empty value should be "null" -->
+			</member>
+		</team>
+	</about>
+        <!-- هنا ممكن تعريف الروابط الصديقة اسفل الموقع-->
+<!-- مثال
+<title> العنونان الرئيسي للموقع ذو الصلة (او لمجموعة المواقع ذات الصله ممكن اضافة عدد غير محدد)
+			<link> 
+				<sub_title>اسم  الرابط الاول</sub_title>
+				<url> الرابط الاول </url>
+			</link>
+			<link>
+				<sub_title> اسم الرابط الثاني</sub_title>
+				<url> الرابط الثاني </url>
+			</link> 
+		</title>
+-->
+        <footer_links>
+		<title> جامعة كربلاء
+			<link>
+				<sub_title> الموقع الاكتروني</sub_title>
+				<url> http://www.uokerbala.edu.iq</url>
+			</link>
+		</title>
+		<title> مواقع ذات صله
+			<link>
+				<sub_title> تسجيل دخول الطالب النظام القديم</sub_title>
+				<url> https://auth.netacad.net/idp/Authn/NetacadLogin </url>
+			</link>
+			<link>
+				<sub_title> اكاديمية سيسكو الدولية</sub_title>
+				<url> http://cisco.netacad.net/</url>
+			</link>
+		</title>
+	</footer_links>
+	<main> <!-- محتويات الصفحة الرئيسية -->
+		<lmc_statement> <!-- كلمة مدير الاكاديمية -->
+			<thumbnail>images/alshammari_small.jpg</thumbnail> <!-- حجم الصورة 60*60 رابط لصورة مصغرة للمتحدث -->
+			<title>كلمة تعريفية</title> <!-- عنوان الكلمة -->
+			<body>بعد ان كانت اكاديمية سيسكو بعيدة المنال عن الطالب العراقي, اصبحت الان موجودة في اغلب الجامعات العراقية لتقدم دوراتها في مجال تقنيات المعلومات و شبكات الحاسبات. في يومنا هذا فان الخبرة وحدها لا تكفي للحصول على فرصة عمل في المؤسسات الرصينة وان اليه تقييم الخبرة والكفاءة الشخصية في اي مجال من مجالات الحياة باتت من خلال الشهادات التعريفية والتي يجب ان تكون صادرة من اكاديميات علمية معروفة. وهذا هو احدى الاسباب المهمة التي تضيف اهميه الى اكاديمية السيسكو المعرفة دوليا ومحليا بالاضافة الى السبب الرئيسي وهو اكتساب المعلومة والخبرة. </body>
+		</lmc_statement>
+		<main_article> <!-- الموضوع الرئيسي في الصفحة الرئيسية -->
+			<thumbnail>images/cisco_academy.png</thumbnail> <!--268*253 رابط لصورة مصغرة عن الموضوع الرئيسي -->
+			<title>اكاديمية سيسكو المحلية في جامعة كربلاء</title> <!-- عنوان الموضوع الرئيسي --> 
+			<body>اكاديمة متخصصة تعمل من اجل مساعدة الطلاب على تطوير مهارات تكنولوجيا المعلومات والاتصالات الأساسية اللازمة لتصميم وبناء وإدارة الشبكات، إلى جانب المهارات المهنية مثل حل المشكلات، والتعاون مع فريق العمل. كما تدعم التدريب العملي من خلال التفاعل مع الشبكات التعليمية المحلية في مختبرات الاكاديمة ومع انظمة محاكات الشبكات الكبيرة مما يدعم الطالب لتطوير المهارات العملية والعلمية.
+الاكاديمية المحلية في جامعة كربلاء هي احدى الفروع المحلية المرتبطة باكاديمية سيسكو الدولية من خلال مركزها الاقليمي في جامعة البصرة ومعرفة بالرمز ID: 3066664. تضم الاكاديمية كادر تدريسي مخول من قبل الاكاديمية الدولية لتدريس المناهج العلمية. كما تمنح الطالب المتخرج شهادة عالمية مميزة في كافة دول العالم وتخوله العمل ضمن مجال الكورس التدريبي الذي اجتازه والمتعلق في مجال شبكات الحاسبات الالكترونية عامة وفي مجال انظمة السيسكو خاصة.</body>
+		</main_article>
+		<articles>
+			<article> <!-- هنا الفقرات المدرجة تحت الموضوع الرئيسي في الصفحة الرئيسية, ممكن اضافة عدد غير محدد من الفقرات --> 
+				<thumbnail>images/cisco-logo.png</thumbnail> <!-- رابط صورة مصغرة 200*200 -->
+				<title>برنامج تعليمي متكامل</title> <!-- عنوان الفقرة --> 
+				<body>أكاديمية سيسكو للشبكات هو برنامج التعليم العالمي الذي يعلم الطلاب كيفية تصميم وبناء واستكشاف وكذلك تأمين شبكات الكمبيوتر مما يزيد فرص حصولهم على الفرص الوظيفية في داخل و خارج القطر. اكاديمية سيسكو الدولية منحت الفرصة للعراق بانشاء ثلاث اكاديميات اقليمية في بغداد والبصرة والموصل ترتبط بها اكاديميات محليه اخرى موزعة في معظم الجامعات العراقية. الدورات المقدمة يتم الاشراف عليها من قبل كوادر الاكاديميات المحلية المخولة وتدار امتحانات الكورسات النهائية من قبل الاكاديمية الدولية كي يتم منح الطالب المتخرج شهادة دولية رصينة.</body>
+			</article> <!-- في فقرة ال بودي اعلاه, ممكن وضع كود html  ولكن بعد حصرة بالتاكات التالية <![CDATA[  .. here the html code ... ]]> -->
+			<article>
+				<thumbnail>images/cisco-logo.png</thumbnail>
+				<title>تطور الاكاديمية</title>
+				<body>بدأت اكاديمة السيسكو منذ عام 1997 ببرنامج صغير صمم لمساعدة المؤسسات للاستفادة من معدات شبكات الحاسبات الالكترونية وثم توسعت لاحقا لتكون اكبر اكاديمية للشبكات على مستوى العالم والتي تدرس مقرراتها في اكثر من 9000 فرع في 165 بلد. كل عام يتخرج من فروع اكاديمية سيسكو اكثر من 900,000 طالب متمتع بمهارة ادارة الشبكات و تقنيات المعلومات. </body>
+			</article>
+			<article>
+				<thumbnail>images/cisco-logo.png</thumbnail>
+				<title>برنامج التدريب CCNA Exploaration</title>
+				<body><![CDATA[
+				برنامج ال CCNA Exploration  يغطي وبصورة شاملة ومتكاملة مادة شبكات الحاسبات الالكترونية من المبادئ الاساسية صعودا الى المواد المتقدمة للخدمات والتطبيقات المتعلقة. كما انها تدعم الجانب العملي اثناء تدريب الطلاب من خلال التفاعل مع شبكة الكترونية متكاملة موجوده في مختبرات الاكاديمية. المنهج التعليمي يتناول شرح بروتوكولات و تطبيقات وخدمات الشبكات بصورة تتفاعليه متزامنة مع امتحانات نظرية وعمليه. يتمتع الطالب المتخرج من هذا البرنامج التدريبي المهارة اللازمة لادارة الشبكات وتحليل وحل مشاكلها. البرنامج التدريبي يقبل الطلاب من مستويات وخلفيات علمية مختلفة على ان تكون له خلفية علمية متعلقة بتقنيات المعلومات مما تؤهله لاكمال البرنامج بنجاح.<br>البرنامج يتألف من اربع دورات كما يلي:  </p>
+                                        <ul class="story">
+                                            <li style="margin-right: 20px;"><a href="http://www.cisco.com/E-Learning/prod/curriculum/cco_tdo_ldd/demos/E1Ch11English/index.html" target="_blank">Network Fundamentals Demo</a></li>
+                                            <li style="margin-right: 20px;"><a href="http://www.cisco.com/E-Learning/prod/curriculum/cco_tdo_ldd/demos/E2Ch5English/index.html" target="_blank">Routing Protocols and Concepts Demo </a></li>
+                                            <li style="margin-right: 20px;"><a href="http://www.cisco.com/E-Learning/prod/curriculum/cco_tdo_ldd/E3_eng/Exploration3_English_Ch6_Demo/index.html" target="_blank">LAN Switching and Wireless Demo</a> </li>
+                                            <li style="margin-right: 20px;"><a href="http://www.cisco.com/E-Learning/prod/curriculum/cco_tdo_ldd/E4_eng/Exploration4_English_Ch3_Demo/index.html" target="_blank">Accessing the WAN Demo</a> </li>
+                                        </ul>
+										]]>
+										</body>
+			</article>
+		</articles>
+	</main>
+	<courses_details> <!-- هنا يمكن وضع شرح عن الكورسات المقدمة من قبل الاكاديمية,  --> 
+		<course id="1">
+			<title>CCNA Networks Fundamental</title> <!-- عنوان الكورس --> 
+			<thumbnail>images/ccna_exploration.png</thumbnail> <!-- صورة تعريفية مصغرة, شعار الكورس مثلا 320*320 -->
+			<details>سيتم نشر الشرح قريبا </details> <!-- شرح عن الكورس, هنا ممكن ادراج كود html ولكن بعد حصرة بين التاكات التاليه <![CDATA[  .. here the html code ... ]]>-->
+		</course>
+		<course id="2">
+			<title>CCNA Networks Fundamental</title>
+			<thumbnail>images/ccna_exploration.png</thumbnail>
+			<details>سيتم نشر الشرح قريبا </details>
+		</course>
+	</courses_details>
+        <!-- هنا ممكن اضمان الاسئلة الشائعة واجوبتها, يمكن اضافة عدد غير محدد منها -->
+	<faq>
+		<question>
+			<ask>ما هي شهادات سيسكو ؟</ask>
+			<answer>شهادة ممنوحة من قبل شركة سيسكو لشبكات الحاسبات الالكترونية وهي الشركة الاولى عالميا في هذا المجال. الشهادة معتمدة في جميع دول العالم و توثق كفاءة الشخص على عدة مستويات وهي الاساس في احتراف شبكات الحاسبات الالكترونية.</answer>
+		</question>
+		<question>
+			<ask>ما هي شروط التقديم ؟</ask>
+			<answer>يجب أن لا يقل عمر المتقدم عن 18 سنة وان يكون مجيدا للغه الانكليزية. الدورة ليست مقتصرة الى متخصصي الحاسبات و تكنلوجيا المعلومات وانما تشمل كل من يرغب تعلم شبكات الحاسبات وله خلفية بسيطة في هذا المجال تهيؤه للتفاعل مع المناهج العلمية المقدمة.</answer>
+		</question>
+		<question>
+			<ask>هل يحتاج المتقدم لدورات سيسكو بريد الكتروني خاص به ؟</ask>
+			<answer>نعم, يحتاج المتقدم الى بريد الكتروني</answer>
+		</question>
+		<question>
+			<ask>كم تبلغ مدة الدورة ؟</ask>
+			<answer>الدورة تقاس بعدد من المحاضرات, ويبلغ عددها 11 محاظرة بواقع ساعتين (او اكثر) للمحاضرة الواحدة بالاضافة الى الامتحان النهائي. يتم توزيع المحاضرات (مرتين او ثلاث في الاسبوع بالاتفاق مع استاذ الدورة)</answer>
+		</question>
+		<question>
+			<ask>هل هنالك اسبقية في التسجيل ؟</ask>
+			<answer>نعم, عند البدء باعلان الدورة, فان افضلية القبول تكون حسب اسبقية التسجيل. وهنا التسجيل يعني اتمام دفع الرسوم في حسابات كلية العلوم – جامعة كربلاء وابلاغ الاكاديمية.</answer>
+		</question>
+		<question>
+			<ask>ما هي المستمسكات المطلوبة ؟</ask>
+			<answer>ابراز هويه لاثبات عمر المتقدم, ويفضل احضار نسخة من الجواز (ان وجدت) وذلك لتثبيت الاسم باللغة الانكليزية حسب ما مثبت فيه.</answer>
+		</question>
+		<question>
+			<ask>كيف أستطيع الاتصال بإدارة الأكاديمية للحصول على مساعدة أو توضيح ؟</ask>
+			<answer>معلومات الاتصال مذكورة في صفحة الاتصال و في صفحة فريق العمل.</answer>
+		</question>
+	</faq>
+        <!-- هنا ممكن اضافة الصور الى البوم الصور وذلك بتعريف عنوان و رابط للصورة , ممكن اضافة عدد غير محدد  -->
+	<gallery>
+		<photo id="1">
+			<title>CCNA NF 2'nd</title>
+			<url>images/gallery/1.jpg</url>
+		</photo>
+		<photo id="2">
+			<title>CCNA NF 2'nd</title>
+			<url>images/gallery/2.jpg</url>
+		</photo>
+		<photo id="3">
+			<title>CCNA NF 2'nd</title>
+			<url>images/gallery/3.jpg</url>
+		</photo>
+	</gallery>
+</cisco_site>

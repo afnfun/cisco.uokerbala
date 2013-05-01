@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<courses>
+	<!-- هنا يمكن اضافة معلومات الكورسات-->
+	<!-- سواء كانت ماضية , حالية , او مخطط اقامتها-->
+    <!-- مثال
+    <course id=" قيمة رقمية لتعريف الكورس, لا يجب تكرارها">
+		<status>حاله الكورس التي تمث كونه منتهي او حالي او مخطط له finished, current, upcoming</status>  
+        <title >CCNA Exploration 1'st</title>
+		<thumbnail>مسار ايكونة لوصف الكورس, ابعادها 140*140</thumbnail>
+        <course_name >عنوان الكورس</course_name>
+        <start> تاريخ البدء </start>
+		<end> تاريخ الانتهاء </end>
+		<registration>
+			<info_line>معلومات التسجيل , هذه المعلومات مفيدة ان كانت الدورة مخطط لاقامتها</info_line>
+			<info_line> معلومات اضافية عن التسجيل , ممكن اضافة مزيد من الاسطر  </info_line>
+		</registration>
+		<note> اي ملاحظة يرغب في ظهورها على الفقرة الخاصة بالدورة</note>
+		<students_number> عدد الطلاب </students_number>
+		<student>
+			<name>اسم طالب </name>
+			<name> اسم طالب</name>
+			<name> اسم طالب </name>
+			<name>اسم طالب </name>
+			<name>  اسم طالب, ممكن اضافة عدد غير محدد من الاسماء عند الحاجة</name>
+		</student>
+	</course>
+    -->
+    <course id="1"> <!-- الكورس الاول , وهو حالي -->
+		<status>current</status>  
+        <title >CCNA Exploration 1'st</title>
+		<thumbnail>images/ccna_exploration.png</thumbnail>
+        <course_name >CCNA Exploration Networks Fundamental</course_name>
+        <start> 5/5/2012 </start>
+		<end> 3/6/2012 </end>
+		<registration>
+			<info_line>  </info_line>
+			<info_line>  </info_line>
+		</registration>
+		<note> موقع الدورة في بناية المكتبة المركزية في فريحة</note>
+		<students_number> 10 </students_number>
+		<student>
+			<name> زيد حسن نصرالله </name>
+			<name> محسن حين حسين </name>
+			<name>  هند راغب كاظم </name>
+			<name> رند عبدالواحد محمدعلي </name>
+			<name>  احمد عباس </name>
+		</student>
+	</course>
+    <course id="2"> <!-- الكورس الثاني , وهو حالي ايضا -->
+        <status>current</status> 
+        <title>CCNA Exploration 2'nd</title>
+        <thumbnail>images/ccna_exploration.png</thumbnail>
+        <course_name >CCNA Exploration Networks Fundamental</course_name>
+        <start> 3/6/2012 </start>
+		<end> still </end>
+		<registration>
+			<info_line>  </info_line>
+			<info_line>  </info_line>
+		</registration>
+		<note> موقع الدورة في بناية المكتبة المركزية في فريحة</note>
+		<students_number> 10 </students_number>
+		<student>
+			<name> علي نزار مجيد حميد العامري </name>
+			<name> هند عبد الكريم عبد الرزاق الحمداني </name>
+			<name> ازهى طلال محمد علي </name>
+			<name> صباح محمد عمران </name>
+			<name> فاطمة عويد جاسم </name>
+			<name> احمد ستار جبار </name>
+			<name> عقيل ابراهيم احمد </name>
+			<name> احمد فائق  </name>
+			<name> ميثم متعب سلمان </name>
+			<name> ابراهيم لطيف عريبي </name>
+			<name> مصطفى جميل </name>
+		</student>
+	</course>
+	<course id="3">
+        <status>upcoming</status> 
+        <title>CCNA Exploration 3'nd</title>
+        <thumbnail>images/ccna_exploration.png</thumbnail>
+        <course_name >CCNA Exploration Networks Fundamental</course_name>
+        <start> 1/9/2012 </start>
+		<end> still </end>
+		<registration>
+			<info_line> لاستفسار , يرجى الاتصال بالاستاذ "احمد صالح " عبر البريد الالكتروني ahmed.sileh@gmail.com او عبر الهاتف 07702673108 </info_line>
+			<info_line> علما ان اجور التسجيل هي 300,000 دينار فقط  </info_line>
+		</registration>
+		<note> موقع الدورة في بناية المكتبة المركزية في فريحة</note>
+		<students_number> 10 </students_number>
+		<student>
+			<name></name>
+		</student>
+	</course>
+        	<!-- هنا يمكن اضافةالاعلانات الظاهرة على يسار الصفحة في القائمة الجانبية-->
+   <!--  يمكن اضافة عدد غير محدد من الاعلانات-->
+   <!-- مثال
+	<announcement>
+		<announce id="رقم الاعلان ويجب ان يكون غير مكرر">
+			<title>عنوان الاعلان</title>
+			<body> نص الاعلان </body>
+		</announce>
+        -->
+        <announcement>
+		<announce id="1">
+			<title>تخفيض الى موظفي دوائر الدولة</title>
+			<body> تخفيض بنسبة 25% الى موظفي الدوائر الحكومية من اجور الدورة المعلنة في اعلانات الدورات. للحصول على التخفيض, يرجى ابراز تأييد الاستمرار بالخدمة اثناء دفع المبلغ عند حسابات كليه العلوم - جامعة كربلاء.</body>
+		</announce>
+		<announce id="2">
+			<title>تخفيض الى الطلبة الاعزاء</title>
+			<body>تخفيض بمقدار 50% الى الطلبة الاعزاء من اجور الدورة المعلنة في اعلانات الدورات, يرجى ابراز تأييد من الكلية او المعهد يؤيد استمرار الطالب في الدراسة اثناء دفع المبلغ عند حسابات كلية العلوم - جامعة كربلاء</body>
+		</announce>
+	<announce id="3">
+			<title>تخفيض الى الطلبة الاعزاء</title>
+			<body>تخفيض بمقدار 50% الى الطلبة الاعزاء من اجور الدورة المعلنة في اعلانات الدورات, يرجى ابراز تأييد من الكلية او المعهد يؤيد استمرار الطالب في الدراسة اثناء دفع المبلغ عند حسابات كلية العلوم - جامعة كربلاء</body>
+		</announce>
+	</announcement>
+</courses>
